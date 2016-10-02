@@ -11,8 +11,11 @@
     "url": "github.com/waltertan12/magic-seaweed"
   },
   "keywords": [
-    "surfing",
-    "forecast"
+    "magicseaweed", "msw", "magic-seaweed", "magic", "seaweed",
+    "surf", "surfing",
+    "forecast", "weather",
+    "swell", "wave", "waves"
+    "api"
   ],
   "author": "Walter Tan <waltertan12@gmail.com>",
   "license": "ISC",
