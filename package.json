@@ -4,19 +4,22 @@
   "description": "Node wrapper for the Magic Seaweed API",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
     "url": "github.com/waltertan12/magic-seaweed"
   },
   "keywords": [
-    "surfing", "forecast"
+    "surfing",
+    "forecast"
   ],
   "author": "Walter Tan <waltertan12@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.4.6",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0",
     "querystring": "^0.2.0",
     "request": "^2.75.0"
   }
