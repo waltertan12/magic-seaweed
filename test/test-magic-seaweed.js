@@ -6,14 +6,14 @@ var   msw    = require('../lib/magic-seaweed');
 const apiKey = 'thisIsNotAnAPIKey';
 
 describe('MagicSeaweed', function () {
-    // describe('#init', function () {
-    //     it ('should accept an API key', function () {
-    //         msw.init({ apiKey: apiKey });
+    describe('#init', function () {
+        it ('should accept an API key', function () {
+            msw.init({ apiKey: apiKey });
 
-    //         msw.should.have.property('apiKey');
-    //         msw.apiKey.should.equal(apiKey);
-    //     });
-    // });
+            msw.should.have.property('apiKey');
+            msw.apiKey.should.equal(apiKey);
+        });
+    });
 
     describe('#getForecast', function () {
         it ('should fail if not initialized', function () {
